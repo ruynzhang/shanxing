@@ -1,0 +1,9 @@
+<%@include file="/WEB-INF/include/menu/sy.jsp" %>
+<%@include file="/WEB-INF/include/menu/cwgl.jsp" %>
+<%@include file="/WEB-INF/include/menu/tggl.jsp" %>
+<%@include file="/WEB-INF/include/menu/tjgl.jsp" %>
+<%@include file="/WEB-INF/include/menu/xcgl.jsp" %>
+<%@include file="/WEB-INF/include/menu/xtgl.jsp" %>
+<%@include file="/WEB-INF/include/menu/yhgl.jsp" %>
+<%@include file="/WEB-INF/include/menu/ywgl.jsp" %>
+<%@include file="/WEB-INF/include/menu/jcxxgl.jsp" %>

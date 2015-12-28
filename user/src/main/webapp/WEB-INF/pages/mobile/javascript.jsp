@@ -1,0 +1,1 @@
+<script src="/mobile/js/jquery.js" type="text/javascript"></script>

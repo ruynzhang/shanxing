@@ -1,0 +1,20 @@
+body{margin:0px; padding:0px;overflow-x: hidden;}
+.sx_contain_box{position: relative;width:100%;margin:0px; padding:0px;}
+.cb_head{background: url("../images/head.jpg") center center  no-repeat;width:100%;height: 572px;position:relative;}
+.cb_container{background: url("../images/bg.png") center center no-repeat;height: 4781px;width:100%;position:relative;}
+.cb_container .ct_content{background: url("../images/body.png") no-repeat;width: 1200px;margin: 0 auto;height:  3824px;position:relative;}
+.cb_container .ct_content a input{width:400px;height: 67px;background: #e8382a;color:#fff;border: 0px;font-size: 28px;cursor: pointer;}
+.cb_container .ct_content a input:hover{background:#e62e2e;}
+.cb_container .ct_content .btn_invest1 input{float: left; margin-top: 650px; margin-left: 190px;display: inline;}
+.cb_container .ct_content .btn_invest2 input{ float: right; margin-top: 1220px; margin-right: 130px;display: inline;}
+.cb_container .ct_content .btn_invest3 input{ float: left; margin-top: 1040px; margin-left: 180px;display: inline;}
+.cb_container .ct_content .btn_invest4 input{   float: right;  margin-top: 1200px;  margin-right: 180px;  display: inline;}
+.cb_container .ct_content .btn_invest5 input{   float: left; margin-top: 1120px; margin-left: 180px; display: inline;}
+.cb_container .ct_content .btn_invest6 input{  float: right;  margin-top: 1010px;  margin-right: 180px;  display: inline;}
+.cb_container .bottom{background: url("../images/bottom.png") center center no-repeat;height: 957px;width:100%;position:relative;}
+
+@media screen and (max-width: 1200px) {
+    body{overflow-x: hidden;}
+    .cb_head,.cb_container .bottom{width:1200px;}
+}
+

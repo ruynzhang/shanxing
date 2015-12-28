@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="front">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="account-front-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/account-front-service/account-front-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bid-front-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bid-front-service/bid-front-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="base-front-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/base-front-service/base-front-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="financial-front-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/financial-front-service/financial-front-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="common-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common/common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/front/target/classes"/>
+        <property name="context-root" value="front"/>
+    </wb-module>
+</project-modules>

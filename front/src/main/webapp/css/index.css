@@ -1,0 +1,111 @@
+@import url("style.css");
+
+/*banner*/
+.focus{width:100%;height:460px;position:relative;float:left;}
+.f426x240{width:100%;height:460px;overflow:hidden}
+.rslides{width:100%;position:relative;list-style:none;padding:0}
+.rslides_nav{display:none;height:51px;width:31px;position:absolute;-webkit-tap-highlight-color:rgba(0,0,0,0);top:50%;left:0;opacity:0.5;text-indent:-9999px;overflow:hidden;text-decoration:none;background:url(../images/i.png) no-repeat 0 -560px;margin-top:-28px}
+.rslides_nav:active{opacity:1.0;display:none;}
+.rslides_nav.next{left:auto;background-position:-31px -560px;right:0;display:none;}
+.rslides_tabs{text-align:center; position:absolute;top:425px;width:100%;*margin-left:20px;*left:50%;margin:0 auto; vertical-align:middle;}
+.rslides_tabs li{display:inline;float:none;_float:left;*float:left;margin-right:5px}
+.rslides_tabs a{text-indent:-9999px;overflow:hidden;display:inline-block;_display:block;*display:block;width:50px;height:5px;background:url("../images/banner_dian.png") no-repeat -60px 0;}
+.rslides_tabs .rslides_here a{background:url("../images/banner_dian.png") no-repeat 0 0;}
+
+.login{  font-size:14px;position:absolute; background:none;  z-index:1; margin:48px 0 0 712px;}
+.login .hsbg{ width:290px;height:360px;background:#fff; filter:alpha(opacity=80);-moz-opacity:.80;opacity:0.8; _position:absolute;}
+.login .bd_nr .mb10{margin-bottom:6px;}
+.login .bd_nr{position:absolute;margin-top:-352px; margin-left:12px; width:266px;}
+.login .bd_nr .title{ font-size:18px; color:#025679; border-bottom:1px #cdd1dc solid; padding-bottom:8px;}
+.login .bd_nr .title a{ color:#025679;}
+.login .bd_nr .bot{ border-top:1px #dde0ea solid;}
+.login .inp{ background:#fff; border:0; width:69%; height:25px; color:#bbbbbb;}
+.login .inp1{ background:url("../images/common.png") no-repeat 5px 7px #fff;border:1px #fff solid; text-indent:33px; width:100%; height:38px; line-height:38px \9;color:#bbbbbb;}
+.login .inp1:hover{ background:url("../images/common.png") no-repeat 5px -34px #fff; border:1px #006f9e solid;}
+.login .inp2{ background:url("../images/common.png") no-repeat -273px 7px #fff; text-indent:33px; border:1px #fff solid;  width:100%; height:38px; line-height:38px \9; color:#bbbbbb;}
+.login .inp3{ background:#fff; text-indent:33px; border:1px #fff solid;  width:179px; height:38px; line-height:38px \9; color:#bbbbbb;}
+.login .inp2:hover{ background:url("../images/common.png") no-repeat -273px -33px #fff; border:1px #006f9e solid;}
+.login .put { background:#168d27; height:50px; line-height:50px; text-align:center; color:#fff; font-size:24px; border:0; display:block; width:100%;cursor:pointer;}
+
+
+.bgckg1{ width:100%; background:#f8f8f9; padding:0px 0 30px;}
+.bgckg_ls{ width:100%; background:url("../images/lsbg.jpg") center #16a0dd; height:980px;}
+.bgckg_blue{ width:100%; background:#26abdf; padding:30px 0;}
+/*什么是和熙贷*/
+.hxd_title{ color:#39c0e7; font-size:36px; text-align:center; margin-bottom:20px;}
+.hxd_xt{ border-bottom:2px #39c0e7 solid; width:200px; margin:auto;}
+.hxd_li{ margin:30px 0 45px 0;}
+.hxd_li li{ width:100px; float:left; text-align:center; margin:0 40px 0 26px;}
+.hxd_li .img01,.hxd_li .img02,.hxd_li .img03,.hxd_li .img04,.hxd_li .img05,.hxd_li .img06{background:url("../images/common.png") no-repeat; width:102px; height:100px; margin-bottom:15px; display:block;}
+.hxd_li .img01{ background-position:0 -203px;}
+.hxd_li .img02{ background-position:-124px -203px;}
+.hxd_li .img03{ background-position:0 -313px;}
+.hxd_li .img04{ background-position:-124px -203px;}
+.hxd_li .img05{ background-position:0 -203px;}
+.hxd_li .img06{ background-position:-124px -422px;}
+
+/*理财风云榜*/
+.invest{ margin:0 auto 35px auto; width:330px;}
+.invest_title{ font-size:30px; color:#39c0e7; margin:0 70px;}
+.invest_ico1,.invest_ico2{background: url("../images/common.png") no-repeat; float:left; width:18px; height:32px; margin-top:9px;}
+.invest_ico1{ background-position:-182px -142px; }
+.invest_ico2{ background-position:-271px -142px; }
+.invest_con tr td {padding:10px 0;}
+.invest_con .big_tit td{ background:#7ecef4; color:#fff; height:35px; padding:0}
+.tzlc_bg .tzlb_title{background: url("../images/common.png") no-repeat  0 -879px; width:178px; height:60px; position:absolute; margin-left:-25px; margin-top:-15px;color:#fff; text-indent:35px; font-size:24px; line-height:54px;}
+.invest_con{ background:#fff;}
+.invest_con .table{ border:1px #ddd solid; font-size:18px}
+.invest_con .one,.invest_con .two,.invest_con .three,.invest_con .hs{ width:25px; height:25px; color:#fff; display:block; text-align:center;  font-size:18px; margin:auto;}
+.invest_con .one{ background:#e60012;}
+.invest_con .two{ background:#eb6100;}
+.invest_con .three{ background:#f19ec2;}
+.invest_con .hs{ background:#959595;}
+
+/*热门投资*/
+.hotment{ padding-top:165px;}
+.hotment li{ width:239px; height:385px; background:#fff; float:left; margin:0 15px 15px 0;}
+.hotment li .title1,.hotment li .title2,.hotment li .title3,.hotment li .title4,.hotment li .title5{background: url("../images/inve_title.png"); height:100px; line-height:100px;}
+.hotment li .title2{ background-position:-256px 0;}
+.hotment li .title3{ background-position:0 -110px;}
+.hotment li .title4{ background-position:-256px -110px;}
+.hotment li .title5{ background-position:0 -221px;}
+.hotment li .title6{ background:#dcdcdc; height:100px; line-height:100px;}
+.hotment .con{ padding:25px 15px 10px 15px;}
+.h75{ height:75px;}.h120{ height:120px;}
+.hotment li .jsq p{ width:103px; float:left;}
+.hotment li .ico01,.hotment li .ico02{background: url("../images/common.png") no-repeat; margin:0 auto 10px auto;}
+.hotment li .ico01{ background-position:0 -632px; width:53px; height:50px; display:block;}
+.hotment li .ico02{ background-position:-118px -632px; width:32px; height:50px; display:block;}
+
+/*按钮*/
+.index_btn01,.index_btn01:hover{background: url("../images/common.png") no-repeat;}
+.index_btn01{background-position:0 -569px; width:115px; height:34px; display:block; line-height:32px; color:#fff; font-size:16px; text-indent:13px; margin:auto;}
+.index_btn01:hover{background-position:-140px -569px;color:#fff;}
+.index_btn02{ background:#39c0e7; width:128px; height:34px; color:#fff; text-align:center; margin:auto; display:block; font-size:16px; line-height:32px;}
+.index_btn02:hover{ color:#fff; background:#3296f3;}
+
+/*浮动在页面两侧客服*/
+#tbox{float:right; right:24px; position:fixed;_position:absolute; top:320px; z-index:99999;}
+.customer{background: url("../images/common.png") no-repeat 0 -719px; width:95px; height:160px; display:block;}
+/*浮动在页面两侧客服--END*/
+
+/*介绍*/
+.introduce{ width:100%; margin:auto;color:#fff; text-align:center;}
+.introduce .arrow a{ display:inline-block; width:102px; height:34px;background:url("../images/index.png") 0 -496px;}
+.introduce .banner .til{ font-size:30px;text-align:center; margin:26px 0 10px 0;}
+.introduce .banner{width:1002px;height:700px; margin:0 auto;position:relative; z-index:1;}
+.introduce .rslides li{width:1002px;height:526px;}
+.introduce .rslides_nav{display:block;}
+.introduce .prev,.introduce .next{ width:60px; height:50px; display:block; position:absolute; z-index:999; text-indent:-10000px;}
+.introduce .prev{background:url("../images/common.png") -225px -870px; top:55px; left:260px;}
+.introduce .next{background:url("../images/common.png") -225px -938px; top:55px; right:260px;}
+.introduce .rslides_tabs{text-align:center; position:absolute;top:675px;width:100%;*margin-left:20px;*left:50%;margin:0 auto; vertical-align:middle;} 
+.introduce .rslides_tabs a{overflow:hidden;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;display:inline-block;width:12px;height:12px; background-color:#fff; text-indent:-10000px; margin:0 5px; display:none;}
+.introduce .rslides_tabs .rslides_here a{background:#f88111;}
+.introduce .more{ width:100%; border-top:1px solid #5b54a1;}
+.introduce .more li{float:left; margin:40px 97px;}
+.introduce .more li a{ display:block; width:140px; text-align:center; color:#fff;}
+.introduce .more li .icon1,.introduce .more li .icon2,.introduce .more li .icon3{ width:140px; height:140px; display:inline-block;background:url("../images/index.png") no-repeat;}
+.introduce .more li .icon1{ background-position:10px -600px;}
+.introduce .more li .icon2{ background-position:-170px -600px;}
+.introduce .more li .icon3{ background-position:-340px -600px;}

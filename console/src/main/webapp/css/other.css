@@ -1,0 +1,55 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #000;
+}
+
+table tr td {
+	padding: 5px 0;
+	line-height: 30px;
+	border: 1px solid #000;
+}
+
+body {
+	line-height: 30px;
+}
+
+div,div p {
+	line-height: 30px;
+}
+
+.btn {
+	clear: both;
+	margin: 15px 0;
+	background: #368cc9;
+	border-radius: 6px;
+	text-align: center;
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	color: #fff;
+	font-family: "微软雅黑";
+	display: inline-block;
+	float: right;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.tr {
+	text-align: right;
+}
+
+.clearfix:after {
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}

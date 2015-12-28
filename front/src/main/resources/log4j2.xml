@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+ <Appenders>
+	 <Console name="STDOUT" target="SYSTEM_OUT">
+	 	<PatternLayout pattern="%d %p [%t] %logger{36}(%L) - %m%n"/>
+	 </Console>
+	 <RollingRandomAccessFile name="FRONT" fileName="${sys:catalina.home}/logs/front/front.log" filePattern="${sys:catalina.home}/logs/front/front-%d{yyyy-MM-dd}.log">
+		 <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+		 <PatternLayout pattern="%d %p [%t] %logger{36}(%L) - %m%n"/>
+		 <Policies>
+		  	<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+		 </Policies>
+		 <DefaultRolloverStrategy max="30"/>
+	 </RollingRandomAccessFile>
+	 <RollingRandomAccessFile name="HUICHAO" fileName="${sys:catalina.home}/logs/huichao/huichao.log" filePattern="${sys:catalina.home}/logs/huichao/huichao-%d{yyyy-MM-dd}.log">
+		 <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+		 <PatternLayout pattern="%d %p [%t] %logger{36}(%L) - %m%n"/>
+		 <Policies>
+		  	<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+		 </Policies>
+		 <DefaultRolloverStrategy max="30"/>
+	 </RollingRandomAccessFile>
+ </Appenders>
+ <Loggers>
+ 	 <AsyncLogger name="com.dimeng.p2p.pay.servlets.huichao" level="DEBUG" includeLocation="true">
+ 	 	<AppenderRef ref="HUICHAO"/>
+ 	 </AsyncLogger>
+ 	 <AsyncLogger name="com.dimeng.p2p.pay.servlets.ret" level="DEBUG" includeLocation="true">
+ 	 	<AppenderRef ref="HUICHAO"/>
+ 	 </AsyncLogger>
+ 	 <AsyncLogger name="com.dimeng.p2p.escrow.huichao" level="DEBUG" includeLocation="true">
+ 	 	<AppenderRef ref="HUICHAO"/>
+ 	 </AsyncLogger>
+	 <Root level="DEBUG">
+	 	<AppenderRef ref="STDOUT"/>
+	 	<AppenderRef ref="FRONT"/>
+	 </Root>
+ </Loggers>
+</Configuration>

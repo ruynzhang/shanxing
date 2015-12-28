@@ -1,0 +1,39 @@
+@charset "utf-8";
+body{font-family:"microsoft yahei";font-family:"微软雅黑";font-size:14px;margin:0;padding:0;}
+html, div, p, h1, h2, h3, h4, h5, h6, blockquote,
+ol, ul, li, dl, dt, dd, 
+form, fieldset, legend, button, input, textarea, 
+pre, code, th, td{margin:0;padding:0;}
+.fl{float:left!important;}
+.fr{float:right!important;}
+.tc{ text-align:center;}.tl{ text-align:left;}.tr{ text-align:right;}
+.pt10{padding-top:10px;}a{color:#666;}a:hover{ text-decoration:none;}
+.btn{background:#368cc9; border-radius:6px;text-align:center;width:88px;height:29px;line-height:29px;color:#fff;font-family:"微软雅黑";display:block;}
+.btn01{background:#5ab2f0;color:#fff;cursor:pointer;border:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*协议类型*/
+.protocol{width:850px; margin:0 auto; background:#fff;padding:0 50px 50px 50px;box-shadow:0px 0px 5px #ccc;}
+.protocol .tit{ text-align: center; padding:0px 0 10px 0;padding-top:50px;}
+.protocol .tit h2{font-size:28px;color:#333;}
+.protocol .tit p{font-size:14px;padding-top:5px;}
+.protocol .tit .line{ background:#d1dfea; height:1px;padding:0px; margin-top:10px;}
+.protocol .con{ margin-top:20px; line-height:24px;}
+.protocol .con p{ }
+.protocol .con h3{font-size:18px; margin:30px 0 10px 0; font-weight:bold;}
+.protocol .con h4{font-size:18px; margin:30px 0 10px 0;color:#000;}
+.protocol .con .tab_one{ line-height:34px;}
+
+.protocol .con .tab_two{margin:5px 0 ;line-height:24px;}
+.protocol .con .tab_two tr td {border: 1px solid #000;padding:2px 10px;}
+
+.shilie{width:960px; margin:0 auto; background:#fff;padding:20px 20px 50px 20px;}
+
+table{border-collapse:collapse;border-spacing:0;border:1px solid #000;}
+table tr td{padding:4px 15px;}
+body{line-height:30px;}
+div,div p{line-height:30px;}
+.btn{clear:both;margin:15px 0;background:#368cc9; border-radius:6px;text-align:center;width:88px;height:29px;line-height:29px;color:#fff;font-family:"微软雅黑";display:inline-block;float:right;}
+h2{text-align: center;font-size:30px;font-weight:bold;}
+.tr{text-align:right;}
+.clearfix:after {content:"\200B";display:block;height:0;clear:both;}
+.clearfix {*zoom:1;}

@@ -1,0 +1,599 @@
+/*reset.css*/
+
+
+body{
+    max-width:640px;
+    min-width:320px;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    padding:0;
+    margin:0;
+    background-color: #f7f8f8;
+    overflow-x: hidden;
+
+}
+em{font-style: normal;}
+ul li{list-style: none; }
+a,ins{text-decoration: none;}
+img{border:none}
+.alert_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #808080;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 999;
+    overflow-y: hidden;
+    display: none;
+}
+.add_body_class {
+    position: fixed;
+    overflow-y: hidden;
+}
+.banner{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.banner img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.banner .xuanfu{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    padding: 3px 15px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    z-index: 10;
+}
+.banner .xuanfu .logo{
+    width: 125px;
+    height: 40px;
+    background: url("../images/mlogo.png") no-repeat 0 0;
+    float: left;
+    background-size: 100% 100%;
+}
+.banner .xuanfu button{
+    width: 78px;
+    height: 30px;
+    background: none;
+    border: 0;
+    position: absolute;
+    top: 7px;
+    right: 18px;
+    border-radius: 2px;
+}
+.banner .xuanfu .denglu{
+    right:18px;
+    color:#d1d1d1;
+    border:#d1d1d1 solid 1px;
+    font-size:14px;
+}
+
+.yindao{
+    position: fixed;
+    bottom: 10px;
+    left:50%;
+    margin-left: -13px;
+    z-index: 10;
+}
+.main-1{
+    width: 100%;
+    padding: 12px 20px 20px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.main-1 .info{
+    overflow: hidden;
+    margin-bottom: 33px;
+    font-size:14px;
+}
+.main-1 .info dl{
+    height: 60px;
+    float: left;
+    overflow: hidden;
+}
+.main-1 .info .chouji{
+    width: 52%;
+    color: #FFA100;
+}
+.main-1 .info .chuangshou{
+    width: 48%;
+    color: #06B75D;
+}
+.main-1 .info dl dt{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 8px;
+}
+/*
+.main-1 .info dl dd{
+	float: left;
+}
+*/
+
+.main-1 .info .title{
+    margin-top:6px;
+}
+.main-1 .info .money{
+    font-weight: bold;
+}
+.main-1 .input{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background-color: #fff;
+    border: #999 solid 2px;
+    border-radius: 8px;
+    padding-left: 14px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.main-1 .input span{
+    width:63px;
+    color: #666565;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-1 .input input{
+    border:none;
+    color: #BABABA;
+    border: 0;
+    line-height: 40px;
+    float: left;
+    background: none;
+    font-size: 14px;
+    width:62%;
+}
+.main-1 .code{
+    width: 100%;
+}
+.main-1 .code .input{
+    width: 63%;
+    float: left;
+}
+.main-1 .code button{
+    outline:medium;
+    padding: 0;
+    float: right;
+    height: 46px;
+    border: none;
+    width: 35%;
+}
+.main-1 .code #get_verify img{  height: 46px;  width: 100%}
+.main-1 #xieyi{
+    width: 15px;
+    height: 15px;
+    background-color: #F9FDFF;
+    border:#304C64 solid 1px;
+    margin-top: -10px;
+}
+.main-1 label{
+    color: #666565;
+}
+.main-1 .ljzc{
+    width: 100%;
+    height: 50px;
+    background: #EF3F3F;
+    border: #DA2626 solid 2px;
+    font-size:22px;
+    color: #FFFFFE;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 5px 0 0 0;
+}
+.main-1  .sx_agree{float: left;  margin: 2px 10px 0px 10px;display:inline}
+.main-1 .down{
+    text-align: center;
+    color: #666565;
+}
+.main-1 .download{
+    width: 100%;
+    overflow: hidden;
+}
+.main-1 .download button{
+    border: none;
+    width: 43%;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0 0 0 42px;
+    line-height: 50px;
+}
+.main-1 .download .apk{
+    float: left;
+    background: #009ed4 url("../images/apk.gif") no-repeat 8px center;
+}
+.main-1 .download .apk a{
+    color: #fff;
+}
+.main-1 .download .app{
+    float: right;
+    background: #009ed4 url("../images/app.gif") no-repeat 12px center;
+}
+.main-1 .download .app a{
+    color: #fff;
+}
+.main-2{
+    width: 100%;
+    /*height: 900px;*/
+    overflow: hidden;
+    padding-bottom: 20px;
+    /*padding: 40px 20px 0;*/
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    background:#fff ;
+    position: relative;
+
+}
+.main-2 .gooodness{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: #009ed4 dashed 1px;
+    padding: 0 20px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.main-2 .gooodness li{
+    width: 33.33%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 50px;
+    list-style: none;
+    color: #666565;
+}
+.main-2 .gooodness li p{
+    margin-top: 5px;
+    font-size:14px;
+}
+.main-2 .credit-title{
+    font-size: 18px;
+    color: #666565;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-2 .credit{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.main-2 .credit li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    background-color: #009ed4;
+    border-radius: 100px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 14px;
+    list-style: none;
+}
+.main-2 .credit p{color:#666565;}
+.main-2 .credit li span{
+    position: absolute;
+    left: 15px;
+    top:-15px;
+}
+.main-2 .credit .last span{
+    top:-5px;
+}
+.main-2 .feeter {
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;;
+    color:#666565;
+    padding-bottom: 0;
+    line-height: 24px;
+    padding-top: 5px;
+}
+
+.copyright-1{margin-bottom: -20px;}
+/*协议*/
+.sx_m_showbox{
+    font-size: 13px;
+    line-height: 150%;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    position: fixed;
+    margin-top: -50%;
+    margin-left: -45%;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    display: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    height:360px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   }
+.sx_m_showbox p{padding:40px 10px 0 10px}
+.sx_m_close{  width: 32px;
+    height: 32px;
+    background: #3E8CE1;
+    color: #fff;
+    line-height: 32px;
+    float: right;
+    margin:7px 10px 0 0;
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    right: 20px;
+    z-index: 1200;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    overflow: hidden;
+}
+.sj_m_close{ margin: 0 auto;}
+.sx_blueColor{color:#3E8CE1}
+.sj_m_close{
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #3E8CE1 ;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0;
+    text-indent: 0;
+    border:0;
+    margin-bottom: 20px
+}
+/*tip*/
+.tip{position: absolute;
+    font-size: 10px;
+    margin-top: 43px;
+    line-height: 15px;}
+
+/*banner*/
+.bx-wrapper {
+    position: relative;
+    padding: 0;
+    *zoom: 1;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.bxslider {
+    margin: 0;
+    padding: 0;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* PAGER */
+.bx-wrapper .bx-pager {
+    text-align: center;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background:#fff;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background:#3E8CE1;
+}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+/*标*/
+.index-list{
+    margin-top:0px;
+}
+/*��*/
+.index-list ul {
+    padding: 0 8px 4px 8px;
+    margin: 10px 0 12px 0;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.index-list ul li {
+    padding: 12px 0 10px 0;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+.index-list ul li p{color:#666;}
+.index-list ul li.index-list-title {
+    font-size: 16px;
+    color: #666;
+    padding-top: 20px;
+    width:100%;
+    border-bottom: #e5e5e5 dashed 1px;
+    margin-bottom: -10px;
+
+}
+.index-list ul li.index-activity{  background:url("../images/label_icon.png") no-repeat;}
+.index-list ul li.index-list-state{height:100%;}
+.index-list ul li.index-list-title span {
+    float: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.index-list ul li.index-activity span{ margin-left: 50px;}
+.index-list ul li.index-activity span b{  font-size: 12px;color: red; margin-left: 10px;}
+ /*.wx_icon_box {
+    font-style: normal;
+    float: left;
+    display: block;
+}*/
+.index-list-rate{float:left;  width:43%;}
+
+
+.index-list ul li.lastLi {
+    border-bottom: none;
+}
+.index-list-p {
+    color: #fa6b0d;
+    font-size: 20px;
+}
+.index-list-btn {
+    position: absolute;
+    right: 6px;
+    top: 20px;
+}
+.index-list-btn .index_list_start{margin-top:5px;text-align: center;}
+.index-progress {
+    height: 23px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px
+}
+.index-progress .wx_progress {
+    float: left;
+    padding: 0;
+    margin: 10px 0 8px 0;
+    width: 68px;
+    height: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #e2e2e2;
+}
+.index-progress ins {
+    float: right;
+    display: block;
+    width: 32px;
+    overflow: hidden;
+    text-align: center;
+    padding-right: 5px;
+}
+.index-progress .wx_progress span {
+    height: 5px;
+    background: #3E8CE1;
+    display: block;
+}
+.index-btn {
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #009ed4 ;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0;
+    float: none;
+    text-indent: 0;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+@media screen and (max-width: 390px) {
+    .main-2 .gooodness li p{font-size: 12px;}
+}
+@media screen and (max-width: 390px){.index-list-p{font-size:16px;}}
+@media screen and (max-width: 375px){
+    .main-2 .credit li{font-size: 12px}
+    .main-1 .input input{  width: 50%;font-size: 12px;  line-height: 46px;}
+
+}
+
+/*Zaker*/
+.sx_body{background: #ccc ;overflow-x: hidden;width:100%}
+.sx_body .sx_body_info{max-width:610px; min-width:320px;margin:0 auto;}
+.sx_body .sx_box{ margin-bottom: 15px;background:#fff;}
+.sx_body .sx_body_info img{width:100%;}
+.sx_body .sx_body_info .sx_code img{
+    width: 32%;
+    position: relative;
+    left: 10%;
+    margin: 10px;
+   }
+.sx_body  .download {
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: -170px;
+}
+
+.sx_body .download button {
+    border: none;
+     width: 100%;;
+    height: 45px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 0 0 40px;
+    line-height: 45px;
+}
+.sx_body   .download .apk{background: #0286e8 url("../images/apk.gif") no-repeat 12px center;   }
+.sx_body  .download .app{  background: #0286e8 url("../images/app.gif") no-repeat 12px center;;}
+.sx_site .sx_invest{ margin: 10px 0 0 40px;width: 90%!important;}
+
+.sx_body  .sx_site a img{
+    width: 75%;
+    position: relative;
+    margin-left: 12%;
+    top: -15px;}
+.sx_body_info .sx_app_note{  padding: 20px;  color:#555;}
+.sx_app_note h1{font-size:20px;}
+.sx_footer{padding-top:0;padding-bottom:0;border-top:none;overflow-x: hidden;}
+.sx_footer p{   line-height: 25px;}
+.ad_hb{width:100%}
+.add_group a{
+    position: absolute;
+    left: 38%;
+    width: 25%;
+    height: 2.5%;
+    margin-top: -30%;}
+@media screen and (max-width: 450px){.sx_body .download{  margin-top: -150px;}}
+

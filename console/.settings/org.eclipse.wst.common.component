@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="console">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="nciic-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nciic-service/nciic-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="salesman-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/salesman-console-service/salesman-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="business-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/business-console-service/business-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="common-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common-console-service/common-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="finance-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/finance-console-service/finance-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="statistics-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/statistics-console-service/statistics-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="system-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/system-console-service/system-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="member-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/member-console-service/member-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spread-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spread-console-service/spread-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="base-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/base-console-service/base-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="systematic-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/systematic-console-service/systematic-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bid-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bid-console-service/bid-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="account-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/account-console-service/account-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="financial-console-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/financial-console-service/financial-console-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="escrow-huichao-service-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/escrow-huichao-service/escrow-huichao-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="common-3.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common/common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/front/target/classes"/>
+        <property name="context-root" value="console"/>
+    </wb-module>
+</project-modules>
